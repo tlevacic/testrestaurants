@@ -1,0 +1,284 @@
+div#root{
+  font-family: 'RocknRoll One', sans-serif;
+}
+/*navbar*/
+
+.navbar{
+  background-image: linear-gradient(to top,#e6e9f0 0%,#d9b3ff 100%);
+  height: 100px;
+  font-family: 'RocknRoll One', sans-serif;
+}
+.name{
+  padding-left: 30px;
+  font-size: 50px;
+  text-decoration: none;
+}
+.na{
+  text-decoration: none;
+  color: black;
+}
+.na:hover{
+  color: green;
+}
+.half{
+  text-decoration: none;
+  color: green !important;
+}
+.half:hover{
+  color: black !important;
+}
+.right_buttons{
+  font-size: 40px;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.r_b{
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.r_b:hover{
+  color: green;
+}
+
+/*end navbar*/
+
+/*home*/
+
+.home{
+  font-size: 30px;
+  padding-left: 70px;
+  padding-top: 200px;
+  font-family: 'RocknRoll One', sans-serif;
+  background-image: url(https://images.pexels.com/photos/3625373/pexels-photo-3625373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 100px;
+}
+.homeLvl1{
+  font-size: 55px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.homeLvl1:hover{
+  color: black;
+}
+.homeLvl2{
+  color: black;
+  text-decoration: none;
+}
+.homeLvl2:hover{
+  color: black;
+}
+.button_order{
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+.button1{
+  width: 250px;
+  height: 70px;
+  background-color: black !important;
+}
+.button1:hover{
+  background-color: green !important;
+}
+.order_hour{
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+/*end of home*/
+
+/*footer*/
+
+.footer h4{
+  font-size: 20px;
+}
+.footer-text p{
+  font-size: 10px;
+  padding-top: 9px;
+}
+.categories-footer{
+  font-size: 13px;
+  padding-left: 0;
+}
+.categories-footer a{
+  color: black;
+}
+.pp{
+  padding-top: 15px;
+}
+.footer-middle{
+  background-image: linear-gradient(to top,#e6e9f0 0%,#d9b3ff 100%) !important;
+}
+
+
+/*end of footer*/
+
+
+/*subscribe*/
+.subscribe{
+  text-align: center;
+  padding-bottom: 100px;
+}
+.subscribe h1{
+  text-align: center;
+  font-size: 70px;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif; 
+}
+.subscribe p{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 150px;
+}
+.subscribe button{
+  font-size: 30px;
+}
+/*end of subscribe*/
+
+/*login form*/
+.login{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.input-div{
+  position: relative;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 5px 0;
+  border-bottom: 2px solid black;
+}
+
+.i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 120px;
+}
+.i i{
+  color: black;
+}
+.input-div > div{
+  position: relative;
+  height: 45px;
+  width: 150px;
+}
+
+.input{
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.5rem 0.7rem;
+  font-size: 1.2rem;
+  color: black;
+}
+.onsub{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.btn2{
+  width: 300px;
+  height: 50px;
+  background-color: black !important;
+}
+.btn2:hover{
+  background-color: green !important;
+}
+.note{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+  padding-top: 20px;
+  color: black;
+}
+.note:hover{
+  color: green;
+}
+/*end of login*/
+
+
+/*moddal*/
+.modal_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.food_Name{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'RocknRoll One', sans-serif;
+}
+.food_price{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'RocknRoll One', sans-serif;
+  padding-bottom: 20px;
+}
+.modal_description{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+
+
+/*order food*/
+
+.listFoodOrders{
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: lightgray;
+  color: green;
+}
+.foodImage{
+  height: 80px;
+  width: 80px;
+}
+.foodName{
+  padding-right: 70px;
+  padding-left: 70px;
+  font-size: 30px;
+  padding-top: 15px;
+}
+.buttonAccDecc{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 170px;
+  padding-top: 15px;
+}
+.decline{
+  margin-right: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: black !important;
+  border: none !important;
+}
+.accept{
+  width: 150px;
+  height: 50px;
+  background-color: green !important;
+  border: none !important;
+}
+

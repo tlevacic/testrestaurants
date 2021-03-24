@@ -1,0 +1,99 @@
+/*details food*/
+  .detail-food-image{
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  .food-single-images img {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+   }
+   .title-food{
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 150px;
+   }
+   .divred{
+    width: 5rem;
+    height: 5px;
+    background: green;
+    margin: 1.7rem auto;
+    margin-top: 40px;
+  }
+  .detail-food-image{
+      height: 300px;
+      width: 100%;
+      padding: 10px;
+      margin-top: 50px;
+    }
+   /*end of food details*/
+
+   /*food*/
+
+   .food{
+    text-align: center;
+    justify-content: center;
+    background-image: url(../components/assets/site-image/food.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 450px;
+  }
+  .text-food{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .text-food h1{
+    font-size: 50px;
+    padding-top:50px;
+    color:var(--dark);
+  }
+  .text-food div{
+      width: 5rem;
+      height: 5px;
+      background: green;
+      margin: 1.7rem auto;
+      margin-top: 40px;
+  }
+  
+  /*end food*/
+
+  /*card food list*/
+  .image_food_list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+  }
+  .name_food_list{
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .description_food_list{
+    font-size: 20px;
+  }
+  .price_food_list{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .button_food_list{
+    float: right;
+    padding-right: 50px;
+  }
+  .button_style_food{
+    background-color: black !important;
+    border-color: black !important;
+    width: 200px;
+  }
+  .button_style_food:hover{
+    background-color: green !important;
+    border-color: green !important;
+  }
+  .card_food_list{
+    box-shadow: 7px 13px 58px 14px rgba(0,0,0,0.75);
+  }
